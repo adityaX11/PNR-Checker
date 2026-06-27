@@ -1,3 +1,4 @@
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 # 🚆 Indian Railway PNR Status Checker
 
 A professional Railway PNR Status Checker built using **Python**, **Streamlit**, and **RapidAPI**.
