@@ -1,0 +1,300 @@
+/* ==========================================
+   GOOGLE FONT
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* ==========================================
+   GLOBAL
+========================================== */
+
+html, body, [class*="css"]{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ==========================================
+   BACKGROUND
+========================================== */
+
+.stApp{
+
+    background: linear-gradient(
+        135deg,
+        #0F172A,
+        #111827,
+        #1E293B
+    );
+
+}
+
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+section[data-testid="stSidebar"]{
+
+    background: #111827;
+    border-right: 1px solid #2d3748;
+
+}
+
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.stButton>button{
+
+    width:100%;
+
+    height:50px;
+
+    border-radius:12px;
+
+    border:none;
+
+    background:linear-gradient(90deg,#2563EB,#06B6D4);
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+}
+
+.stButton>button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0px 8px 20px rgba(37,99,235,.45);
+
+}
+
+
+/* ==========================================
+   TEXT INPUT
+========================================== */
+
+.stTextInput>div>div>input{
+
+    border-radius:12px;
+
+    border:2px solid #2563EB;
+
+    padding:14px;
+
+    font-size:16px;
+
+}
+
+
+/* ==========================================
+   METRIC CARDS
+========================================== */
+
+div[data-testid="metric-container"]{
+
+    background:#1F2937;
+
+    border-radius:15px;
+
+    padding:18px;
+
+    border:1px solid #334155;
+
+    box-shadow:0px 8px 20px rgba(0,0,0,.25);
+
+    transition:.3s;
+
+}
+
+div[data-testid="metric-container"]:hover{
+
+    transform:translateY(-5px);
+
+    border:1px solid #2563EB;
+
+}
+
+
+/* ==========================================
+   DATAFRAME
+========================================== */
+
+div[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+
+/* ==========================================
+   EXPANDER
+========================================== */
+
+.streamlit-expanderHeader{
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================
+   SUCCESS
+========================================== */
+
+div[data-baseweb="notification"]{
+
+    border-radius:12px;
+
+}
+
+
+/* ==========================================
+   CONTAINER
+========================================== */
+
+[data-testid="stVerticalBlock"]{
+
+    gap:1rem;
+
+}
+
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563EB;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#1E293B;
+
+}
+
+
+/* ==========================================
+   HR
+========================================== */
+
+hr{
+
+    border:1px solid #334155;
+
+}
+
+
+/* ==========================================
+   TABLE
+========================================== */
+
+table{
+
+    border-radius:15px;
+
+}
+
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+img{
+
+    border-radius:15px;
+
+}
+
+
+/* ==========================================
+   ANIMATION
+========================================== */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.main{
+
+    animation:fadeIn .6s ease-in-out;
+
+}
+
+
+/* ==========================================
+   TITLES
+========================================== */
+
+h1{
+
+    font-weight:700;
+
+}
+
+h2{
+
+    font-weight:600;
+
+}
+
+h3{
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+header{
+
+    visibility:hidden;
+
+}
