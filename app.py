@@ -284,7 +284,7 @@ st.markdown(
 """
 <div style="text-align:center">
 
-Made with ❤️ using
+Made with 🪄 using
 
 <b>Python</b> • <b>Streamlit</b> • <b>RapidAPI</b>
 
