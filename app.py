@@ -35,7 +35,7 @@ except:
 with st.sidebar:
 
     st.image(
-        "https://cdn-icons-png.flaticon.com/512/2972/2972185.png",
+        "https://play-lh.googleusercontent.com/exN6pv0C3cPQ_WpTRPYjNqvqQ7qdLO_pB2RMEDkrbqEB6_-TbLAHtr_NubkIo-QAdbbX4fUAL7YwfDsUskfmIO0=w240-h480-rw",
         width=120
     )
 
@@ -55,7 +55,11 @@ with st.sidebar:
     st.markdown("---")
 
     st.info(
-        "Enter your 10-digit PNR Number and check the latest status."
+        """
+        🚂 **Is your seat confirmed or still playing hide-and-seek? 👀**
+
+        Type your PNR below and let's solve the mystery together!
+        """
     )
 
 # -----------------------------
@@ -92,7 +96,7 @@ with col1:
 
     pnr = st.text_input(
         "Enter PNR Number",
-        placeholder="6833824029"
+        placeholder="Enter 10 Digit PNR Number",
     )
 
 with col2:
