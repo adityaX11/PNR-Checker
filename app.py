@@ -35,7 +35,7 @@ except:
 with st.sidebar:
 
     st.image(
-        "https://play-lh.googleusercontent.com/exN6pv0C3cPQ_WpTRPYjNqvqQ7qdLO_pB2RMEDkrbqEB6_-TbLAHtr_NubkIo-QAdbbX4fUAL7YwfDsUskfmIO0=w240-h480-rw",
+        "assets/train.png",
         width=120
     )
 
